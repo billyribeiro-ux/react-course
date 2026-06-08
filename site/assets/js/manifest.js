@@ -234,5 +234,10 @@ window.COURSE = {
     { id: "a0-testing/0800-browser-mode", part: "a0-testing", title: "Component Testing in Vitest Browser Mode", estMinutes: 12, project: "vite-fundamentals", level: "advanced" },
     { id: "a0-testing/0900-testing-server-code", part: "a0-testing", title: "Testing Server Components & Server Actions", estMinutes: 13, project: "next-saas", level: "advanced" },
     { id: "a0-testing/1000-playwright-e2e", part: "a0-testing", title: "End-to-End Testing with Playwright", estMinutes: 16, project: "next-saas", level: "advanced" },
+    { id: "a0-testing/1100-fixtures-page-objects", part: "a0-testing", title: "Fixtures, Page Objects & Parallelism", estMinutes: 13, project: "next-saas", level: "advanced" },
+    { id: "a0-testing/1200-visual-regression", part: "a0-testing", title: "Visual Regression Testing", estMinutes: 11, project: "design-system", level: "advanced" },
+    { id: "a0-testing/1300-coverage-flake", part: "a0-testing", title: "Coverage, Flake & What NOT to Test", estMinutes: 13, project: "vite-fundamentals", level: "advanced" },
+    { id: "a0-testing/1400-ci-integration", part: "a0-testing", title: "Wiring Tests into CI", estMinutes: 13, project: "next-saas", level: "advanced" },
+    { id: "a0-testing/1500-project-test-pyramid", part: "a0-testing", title: "Project: Build a Full Test Suite", estMinutes: 75, project: "next-saas", level: "advanced" },
   ],
 };
