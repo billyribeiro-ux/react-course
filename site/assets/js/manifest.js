@@ -246,5 +246,10 @@ window.COURSE = {
     { id: "b0-principal/0300-virtualization", part: "b0-principal", title: "List Virtualization at Scale", estMinutes: 13, project: "next-saas", level: "principal" },
     { id: "b0-principal/0400-code-splitting", part: "b0-principal", title: "Code Splitting & Lazy Loading", estMinutes: 13, project: "next-saas", level: "principal" },
     { id: "b0-principal/0500-bundle-web-vitals", part: "b0-principal", title: "Bundle Analysis & Core Web Vitals", estMinutes: 15, project: "next-saas", level: "principal" },
+    { id: "b0-principal/0600-assets-strategy", part: "b0-principal", title: "Image, Font & Asset Strategy", estMinutes: 13, project: "next-saas", level: "principal" },
+    { id: "b0-principal/0700-advanced-typescript", part: "b0-principal", title: "Advanced TypeScript Patterns", estMinutes: 16, project: "next-saas", level: "principal" },
+    { id: "b0-principal/0800-component-api-design", part: "b0-principal", title: "Component API Design & Composition Patterns", estMinutes: 16, project: "design-system", level: "principal" },
+    { id: "b0-principal/0900-state-architecture", part: "b0-principal", title: "State Architecture at Scale", estMinutes: 15, project: "next-saas", level: "principal" },
+    { id: "b0-principal/1000-monorepos", part: "b0-principal", title: "Monorepos with Turborepo & pnpm", estMinutes: 14, project: "next-saas", level: "principal" },
   ],
 };
