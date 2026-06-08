@@ -4,9 +4,13 @@ The most comprehensive, hands-on, up-to-date React course there is — engineere
 who has **never written a line of code** all the way to **principal-engineer level**, able to build
 anything in the React ecosystem.
 
-Built around the **June 2026** stable ecosystem: React 19.2, React Compiler 1.0, Vite 7,
-TypeScript 5, Next.js 16.2 LTS, Expo SDK 56 / React Native 0.85, TanStack Query v6 & Router,
-Zustand 5, Tailwind CSS v4, Vitest + Playwright, and more.
+Built around the **June 2026** stable ecosystem: React 19.2, React Compiler 1.0, Vite 8,
+TypeScript 6, Next.js 16.2 LTS, Expo SDK 56 / React Native 0.85, TanStack Query 5 & Router,
+Zustand 5, Tailwind CSS v4, Vitest 4 + Playwright, and more.
+
+**Status: complete — 208 lessons across 13 parts**, beginner to distinguished principal engineer
+(L7++), every lesson with deep explanations, copy-ready Monaco code panes, and hands-on exercises,
+backed by 7 real, runnable projects.
 
 ## What's inside
 
