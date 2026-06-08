@@ -162,5 +162,11 @@ window.COURSE = {
     { id: "60-styling/1100-accessibility-aria", part: "60-styling", title: "Accessibility II: Focus, ARIA & Screen Readers", estMinutes: 17, project: "design-system", level: "advanced" },
     { id: "60-styling/1200-storybook", part: "60-styling", title: "Documenting Components in Storybook", estMinutes: 15, project: "design-system", level: "advanced" },
     { id: "60-styling/1300-project-component-library", part: "60-styling", title: "Project: Ship a Themed, Accessible Component Library", estMinutes: 60, project: "design-system", level: "advanced" },
+
+    // ---- Part 70 — Routing & Data ----
+    { id: "70-data-routing/0100-client-routing-concepts", part: "70-data-routing", title: "Client-Side Routing Concepts", estMinutes: 14, project: "data-routing-app", level: "intermediate" },
+    { id: "70-data-routing/0200-tanstack-router", part: "70-data-routing", title: "TanStack Router: Type-Safe Routes & Params", estMinutes: 18, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/0300-loaders-search-params", part: "70-data-routing", title: "Loaders, Search Params & Nested Layouts", estMinutes: 17, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/0400-react-router-v7", part: "70-data-routing", title: "React Router v7 — When & Why", estMinutes: 12, project: "data-routing-app", level: "advanced" },
   ],
 };
