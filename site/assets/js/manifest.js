@@ -74,5 +74,23 @@ window.COURSE = {
     { id: "10-js-foundations/2300-localstorage-and-json", part: "10-js-foundations", title: "localStorage & JSON", estMinutes: 14, project: "js-foundations", level: "intermediate" },
     { id: "10-js-foundations/2400-modern-js-roundup", part: "10-js-foundations", title: "Modern JavaScript Roundup", estMinutes: 17, project: "js-foundations", level: "intermediate" },
     { id: "10-js-foundations/2500-project-dashboard", part: "10-js-foundations", title: "Project: Ship the Personal Dashboard", estMinutes: 40, project: "js-foundations", level: "intermediate" },
+
+    // ---- Part 20 — TypeScript Foundations ----
+    { id: "20-typescript/0100-why-types", part: "20-typescript", title: "Why TypeScript? The Cost of Bugs", estMinutes: 15, project: "js-foundations", level: "beginner" },
+    { id: "20-typescript/0200-primitive-and-literal-types", part: "20-typescript", title: "Primitive & Literal Types", estMinutes: 15, project: "js-foundations", level: "beginner" },
+    { id: "20-typescript/0300-arrays-tuples-objects", part: "20-typescript", title: "Typing Arrays, Tuples & Objects", estMinutes: 16, project: "js-foundations", level: "beginner" },
+    { id: "20-typescript/0400-functions", part: "20-typescript", title: "Typing Functions", estMinutes: 16, project: "js-foundations", level: "beginner" },
+    { id: "20-typescript/0500-unions-and-intersections", part: "20-typescript", title: "Union & Intersection Types", estMinutes: 15, project: "js-foundations", level: "intermediate" },
+    { id: "20-typescript/0600-narrowing-and-guards", part: "20-typescript", title: "Narrowing & Type Guards", estMinutes: 15, project: "js-foundations", level: "intermediate" },
+    { id: "20-typescript/0700-interface-vs-type", part: "20-typescript", title: "interface vs type", estMinutes: 13, project: "js-foundations", level: "intermediate" },
+    { id: "20-typescript/0800-generics", part: "20-typescript", title: "Generics: Reusable, Type-Safe Code", estMinutes: 18, project: "js-foundations", level: "intermediate" },
+    { id: "20-typescript/0900-keyof-indexed-typeof", part: "20-typescript", title: "keyof, Indexed Access & typeof", estMinutes: 14, project: "js-foundations", level: "advanced" },
+    { id: "20-typescript/1000-utility-types", part: "20-typescript", title: "Utility Types: Partial, Pick, Omit, Record…", estMinutes: 16, project: "js-foundations", level: "advanced" },
+    { id: "20-typescript/1100-discriminated-unions", part: "20-typescript", title: "Discriminated Unions & Exhaustiveness", estMinutes: 16, project: "js-foundations", level: "advanced" },
+    { id: "20-typescript/1200-unknown-any-never", part: "20-typescript", title: "unknown vs any vs never", estMinutes: 12, project: "js-foundations", level: "advanced" },
+    { id: "20-typescript/1300-enums-and-as-const", part: "20-typescript", title: "Enums & as const", estMinutes: 13, project: "js-foundations", level: "advanced" },
+    { id: "20-typescript/1400-modules-and-declarations", part: "20-typescript", title: "Modules, Imports & Declaration Files", estMinutes: 13, project: "js-foundations", level: "advanced" },
+    { id: "20-typescript/1500-tsconfig-explained", part: "20-typescript", title: "tsconfig.json Explained", estMinutes: 14, project: "js-foundations", level: "advanced" },
+    { id: "20-typescript/1600-project-typed-dashboard", part: "20-typescript", title: "Project: Convert the Dashboard to TypeScript", estMinutes: 45, project: "js-foundations", level: "advanced" },
   ],
 };

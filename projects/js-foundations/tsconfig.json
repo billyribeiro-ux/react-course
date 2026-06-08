@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    // This project begins as plain JavaScript (Part 10) and is migrated to
+    // TypeScript file-by-file in Part 20, so allow .js inputs. checkJs stays
+    // off — untyped .js isn't error-checked until you rename it to .ts.
+    "allowJs": true,
+    "checkJs": false
+  },
+  "include": ["src"]
+}
