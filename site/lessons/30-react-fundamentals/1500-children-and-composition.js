@@ -63,6 +63,7 @@ function App() {
       ${h.codePane({
         lang: "tsx",
         title: "Configuration (rigid) vs composition (flexible)",
+        check: false,
         readOnly: true,
         code: `// 😟 Configuration: endless props, never flexible enough
 <Modal title="Delete?" body="Are you sure?" confirmText="Delete"

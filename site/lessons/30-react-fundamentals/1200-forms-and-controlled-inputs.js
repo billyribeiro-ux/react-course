@@ -59,6 +59,7 @@ registerLesson({
       ${h.codePane({
         lang: "tsx",
         title: "Checkbox, select, number",
+        check: false,
         readOnly: true,
         code: `const [vegetarian, setVegetarian] = useState(false);
 const [cuisine, setCuisine] = useState("any");

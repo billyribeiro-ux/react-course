@@ -73,7 +73,8 @@ function RecipeList() {
   return (
     <ul>
       {recipes.map((recipe) => (
-        <li key={recipe.id}>{recipe.title}</li>  {/* stable, unique id */}
+        // key is a stable, unique id from the data
+        <li key={recipe.id}>{recipe.title}</li>
       ))}
     </ul>
   );

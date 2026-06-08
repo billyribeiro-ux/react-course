@@ -28,6 +28,7 @@ registerLesson({
       ${h.codePane({
         lang: "tsx",
         title: "Externalized, formatted text",
+        check: false,
         readOnly: true,
         code: `// ❌ Hardcoded — untranslatable, wrong format for other locales:
 <p>You have {count} messages</p>

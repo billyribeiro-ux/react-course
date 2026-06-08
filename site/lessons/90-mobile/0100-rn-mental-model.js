@@ -40,6 +40,7 @@ registerLesson({
       ${h.codePane({
         lang: "tsx",
         title: "Same React, different primitives",
+        check: false,
         readOnly: true,
         code: `// WEB:                          // REACT NATIVE:
 <div>                            <View>           // layout container

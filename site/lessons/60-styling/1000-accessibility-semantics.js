@@ -30,6 +30,7 @@ registerLesson({
       ${h.codePane({
         lang: "tsx",
         title: "Use the right element",
+        check: false,
         readOnly: true,
         code: `// ❌ A div pretending to be a button — inaccessible
 <div className="btn" onClick={save}>Save</div>
@@ -73,6 +74,7 @@ registerLesson({
       ${h.codePane({
         lang: "tsx",
         title: "Everything interactive needs a name",
+        check: false,
         readOnly: true,
         code: `// Inputs need labels (associated, not just placed near):
 <label htmlFor="email">Email</label>

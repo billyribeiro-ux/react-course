@@ -52,6 +52,7 @@ function App() {
       ${h.codePane({
         lang: "tsx",
         title: "Typed, destructured props",
+        check: false,
         readOnly: true,
         code: `interface RecipeCardProps {
   title: string;

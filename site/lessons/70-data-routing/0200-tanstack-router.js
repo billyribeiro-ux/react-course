@@ -30,6 +30,7 @@ registerLesson({
       ${h.codePane({
         lang: "tsx",
         title: "Type-safe navigation",
+        check: false,
         readOnly: true,
         code: `// ✅ autocompleted path, required typed params:
 <Link to="/jobs/$jobId" params={{ jobId: "3" }}>View</Link>

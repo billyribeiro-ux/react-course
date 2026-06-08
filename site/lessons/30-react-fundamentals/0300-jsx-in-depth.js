@@ -94,6 +94,7 @@ const element = jsx("h1", { className: "title", children: "Hello, React!" });
       ${h.codePane({
         lang: "tsx",
         title: "The rules",
+        check: false,
         readOnly: true,
         code: `// 1) Return ONE root element. Wrap siblings in a parent or a Fragment <>...</>:
 function Bad() {

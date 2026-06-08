@@ -92,6 +92,7 @@ console.log(canEnter); // true`,
       ${h.codePane({
         lang: "js",
         title: "The 6 falsy values",
+        check: false,
         readOnly: true,
         code: `// FALSY (treated as false):
 false

@@ -53,6 +53,7 @@ registerLesson({
       ${h.codePane({
         lang: "tsx",
         title: "ARIA states & relationships",
+        check: false,
         readOnly: true,
         code: `// State: a toggle button announces pressed/unpressed
 <button aria-pressed={isFavorite}>♥</button>

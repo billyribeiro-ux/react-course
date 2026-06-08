@@ -69,6 +69,7 @@ function NewJobForm({ onSubmit }: { onSubmit: (v: JobFormValues) => void }) {
       ${h.codePane({
         lang: "tsx",
         title: "Form state you get for free",
+        check: false,
         readOnly: true,
         code: `const { formState } = useForm();
 formState.errors        // per-field validation errors

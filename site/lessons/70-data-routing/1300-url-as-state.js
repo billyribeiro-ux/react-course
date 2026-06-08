@@ -40,6 +40,7 @@ registerLesson({
       ${h.codePane({
         lang: "tsx",
         title: "URL state with TanStack Router",
+        check: false,
         readOnly: true,
         code: `// Define + validate the search params (from Lesson 3):
 validateSearch: z.object({

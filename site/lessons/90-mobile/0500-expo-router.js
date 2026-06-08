@@ -42,6 +42,7 @@ registerLesson({
       ${h.codePane({
         lang: "tsx",
         title: "Navigating with typed Link",
+        check: false,
         readOnly: true,
         code: `import { Link, useRouter } from "expo-router";
 
