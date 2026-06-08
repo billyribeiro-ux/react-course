@@ -262,5 +262,13 @@ window.COURSE = {
     { id: "b0-principal/1900-frontend-system-design", part: "b0-principal", title: "Frontend System Design", estMinutes: 18, project: null, level: "principal" },
     { id: "b0-principal/2000-reading-source-oss", part: "b0-principal", title: "Reading Source & Contributing to Open Source", estMinutes: 13, project: null, level: "principal" },
     { id: "b0-principal/2100-senior-craft", part: "b0-principal", title: "The Senior Craft: RFCs, Reviews, Writing & Leadership", estMinutes: 17, project: null, level: "principal" },
+
+    // ---- Part C0 — Capstones ----
+    { id: "c0-capstone/0100-capstone-brief", part: "c0-capstone", title: "The Capstones: Scoping an Ambitious Project", estMinutes: 14, project: null, level: "principal" },
+    { id: "c0-capstone/0200-capstone-saas", part: "c0-capstone", title: "Capstone 1: A Production-Grade Full-Stack SaaS", estMinutes: 120, project: "next-saas", level: "principal" },
+    { id: "c0-capstone/0300-capstone-cross-platform", part: "c0-capstone", title: "Capstone 2: A Cross-Platform Product", estMinutes: 120, project: "expo-mobile", level: "principal" },
+    { id: "c0-capstone/0400-architecture-review", part: "c0-capstone", title: "Architecture Review & Performance Budget", estMinutes: 16, project: "next-saas", level: "principal" },
+    { id: "c0-capstone/0500-design-doc-narrative", part: "c0-capstone", title: "The Design Doc & Your Principal Narrative", estMinutes: 15, project: null, level: "principal" },
+    { id: "c0-capstone/0600-where-to-go-next", part: "c0-capstone", title: "Graduation: Where to Go Next", estMinutes: 14, project: null, level: "principal" },
   ],
 };
