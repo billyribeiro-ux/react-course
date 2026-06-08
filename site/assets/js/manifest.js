@@ -228,5 +228,11 @@ window.COURSE = {
     { id: "a0-testing/0200-vitest-unit-tests", part: "a0-testing", title: "Vitest Setup & Unit Tests", estMinutes: 15, project: "vite-fundamentals", level: "advanced" },
     { id: "a0-testing/0300-testing-hooks", part: "a0-testing", title: "Testing Custom Hooks & Reducers", estMinutes: 13, project: "vite-fundamentals", level: "advanced" },
     { id: "a0-testing/0400-testing-library", part: "a0-testing", title: "React Testing Library: Testing Behavior", estMinutes: 16, project: "vite-fundamentals", level: "advanced" },
+    { id: "a0-testing/0500-queries-roles-a11y", part: "a0-testing", title: "Queries, Roles & Accessibility-First Testing", estMinutes: 14, project: "vite-fundamentals", level: "advanced" },
+    { id: "a0-testing/0600-user-events-async", part: "a0-testing", title: "User Events & Async UI", estMinutes: 14, project: "vite-fundamentals", level: "advanced" },
+    { id: "a0-testing/0700-msw", part: "a0-testing", title: "Mocking the Network with MSW", estMinutes: 15, project: "vite-fundamentals", level: "advanced" },
+    { id: "a0-testing/0800-browser-mode", part: "a0-testing", title: "Component Testing in Vitest Browser Mode", estMinutes: 12, project: "vite-fundamentals", level: "advanced" },
+    { id: "a0-testing/0900-testing-server-code", part: "a0-testing", title: "Testing Server Components & Server Actions", estMinutes: 13, project: "next-saas", level: "advanced" },
+    { id: "a0-testing/1000-playwright-e2e", part: "a0-testing", title: "End-to-End Testing with Playwright", estMinutes: 16, project: "next-saas", level: "advanced" },
   ],
 };
