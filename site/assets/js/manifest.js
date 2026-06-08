@@ -251,5 +251,10 @@ window.COURSE = {
     { id: "b0-principal/0800-component-api-design", part: "b0-principal", title: "Component API Design & Composition Patterns", estMinutes: 16, project: "design-system", level: "principal" },
     { id: "b0-principal/0900-state-architecture", part: "b0-principal", title: "State Architecture at Scale", estMinutes: 15, project: "next-saas", level: "principal" },
     { id: "b0-principal/1000-monorepos", part: "b0-principal", title: "Monorepos with Turborepo & pnpm", estMinutes: 14, project: "next-saas", level: "principal" },
+    { id: "b0-principal/1100-design-systems-scale", part: "b0-principal", title: "Design Systems at Scale", estMinutes: 13, project: "design-system", level: "principal" },
+    { id: "b0-principal/1200-i18n", part: "b0-principal", title: "Internationalization & Localization", estMinutes: 13, project: "next-saas", level: "principal" },
+    { id: "b0-principal/1300-security", part: "b0-principal", title: "Frontend & Full-Stack Security", estMinutes: 17, project: "next-saas", level: "principal" },
+    { id: "b0-principal/1400-observability", part: "b0-principal", title: "Observability: Logs, Traces, Metrics & Analytics", estMinutes: 13, project: "next-saas", level: "principal" },
+    { id: "b0-principal/1500-cicd", part: "b0-principal", title: "CI/CD & Release Engineering", estMinutes: 14, project: "next-saas", level: "principal" },
   ],
 };
