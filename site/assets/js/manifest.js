@@ -239,5 +239,12 @@ window.COURSE = {
     { id: "a0-testing/1300-coverage-flake", part: "a0-testing", title: "Coverage, Flake & What NOT to Test", estMinutes: 13, project: "vite-fundamentals", level: "advanced" },
     { id: "a0-testing/1400-ci-integration", part: "a0-testing", title: "Wiring Tests into CI", estMinutes: 13, project: "next-saas", level: "advanced" },
     { id: "a0-testing/1500-project-test-pyramid", part: "a0-testing", title: "Project: Build a Full Test Suite", estMinutes: 75, project: "next-saas", level: "advanced" },
+
+    // ---- Part B0 — Principal-Engineer Topics ----
+    { id: "b0-principal/0100-profiling", part: "b0-principal", title: "Profiling: Measure Before You Optimize", estMinutes: 14, project: "next-saas", level: "principal" },
+    { id: "b0-principal/0200-rendering-performance", part: "b0-principal", title: "Rendering Performance", estMinutes: 15, project: "next-saas", level: "principal" },
+    { id: "b0-principal/0300-virtualization", part: "b0-principal", title: "List Virtualization at Scale", estMinutes: 13, project: "next-saas", level: "principal" },
+    { id: "b0-principal/0400-code-splitting", part: "b0-principal", title: "Code Splitting & Lazy Loading", estMinutes: 13, project: "next-saas", level: "principal" },
+    { id: "b0-principal/0500-bundle-web-vitals", part: "b0-principal", title: "Bundle Analysis & Core Web Vitals", estMinutes: 15, project: "next-saas", level: "principal" },
   ],
 };
