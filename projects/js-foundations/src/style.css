@@ -1,0 +1,56 @@
+/* Personal Dashboard styles — kept deliberately simple in Part 10.
+   You'll learn CSS properly in Part 60; for now this just makes the
+   playground pleasant to look at. */
+
+:root {
+  color-scheme: light dark;
+  --bg: #0f1117;
+  --card: #181b24;
+  --text: #e7e9ee;
+  --muted: #9aa2b1;
+  --brand: #6ea8fe;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#app {
+  width: min(680px, 92vw);
+  padding: 2rem;
+  background: var(--card);
+  border: 1px solid #262a36;
+  border-radius: 16px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+#intro {
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+button {
+  font: inherit;
+  padding: 0.5rem 1rem;
+  border: 1px solid #2c3140;
+  border-radius: 8px;
+  background: var(--brand);
+  color: #0b0d12;
+  font-weight: 600;
+  cursor: pointer;
+}

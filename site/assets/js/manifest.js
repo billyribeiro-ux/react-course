@@ -47,5 +47,18 @@ window.COURSE = {
     { id: "00-intro/0700-git-and-github", part: "00-intro", title: "Git & GitHub From Zero", estMinutes: 24, project: null, level: "beginner" },
     { id: "00-intro/0800-reading-docs-and-errors", part: "00-intro", title: "Reading Docs, Errors & Asking Good Questions", estMinutes: 18, project: null, level: "beginner" },
     { id: "00-intro/0900-learning-mindset", part: "00-intro", title: "Your Mental Model for Learning to Code", estMinutes: 14, project: null, level: "beginner" },
+
+    // ---- Part 10 — JavaScript Foundations ----
+    { id: "10-js-foundations/0100-values-and-types", part: "10-js-foundations", title: "Values & Types", estMinutes: 16, project: "js-foundations", level: "beginner" },
+    { id: "10-js-foundations/0200-variables", part: "10-js-foundations", title: "Variables: let, const & Naming", estMinutes: 16, project: "js-foundations", level: "beginner" },
+    { id: "10-js-foundations/0300-numbers-and-math", part: "10-js-foundations", title: "Numbers & Math", estMinutes: 15, project: "js-foundations", level: "beginner" },
+    { id: "10-js-foundations/0400-strings", part: "10-js-foundations", title: "Strings & Template Literals", estMinutes: 16, project: "js-foundations", level: "beginner" },
+    { id: "10-js-foundations/0500-booleans-and-comparison", part: "10-js-foundations", title: "Booleans, Comparison & Truthiness", estMinutes: 17, project: "js-foundations", level: "beginner" },
+    { id: "10-js-foundations/0600-control-flow", part: "10-js-foundations", title: "Making Decisions: if, else, switch & ternary", estMinutes: 16, project: "js-foundations", level: "beginner" },
+    { id: "10-js-foundations/0700-loops", part: "10-js-foundations", title: "Loops: Doing Things Repeatedly", estMinutes: 16, project: "js-foundations", level: "beginner" },
+    { id: "10-js-foundations/0800-functions", part: "10-js-foundations", title: "Functions: Reusable Blocks of Logic", estMinutes: 20, project: "js-foundations", level: "beginner" },
+    { id: "10-js-foundations/0900-scope-and-closures", part: "10-js-foundations", title: "Scope & Closures", estMinutes: 18, project: "js-foundations", level: "intermediate" },
+    { id: "10-js-foundations/1000-arrays", part: "10-js-foundations", title: "Arrays: Ordered Lists of Values", estMinutes: 17, project: "js-foundations", level: "beginner" },
+    { id: "10-js-foundations/1100-array-methods", part: "10-js-foundations", title: "Array Methods: map, filter, reduce & friends", estMinutes: 22, project: "js-foundations", level: "intermediate" },
   ],
 };

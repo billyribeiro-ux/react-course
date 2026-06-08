@@ -316,6 +316,7 @@
   }
   function projectScript(project) {
     const map = {
+      "js-foundations": "js",
       "vite-fundamentals": "vite",
       "vite-hooks-lab": "hooks",
       "design-system": "design",

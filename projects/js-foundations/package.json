@@ -1,0 +1,15 @@
+{
+  "name": "js-foundations",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Parts 10–20: a vanilla-JavaScript 'Personal Dashboard' you build from scratch, then upgrade to TypeScript.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.0.16"
+  }
+}
