@@ -130,5 +130,15 @@ window.COURSE = {
     { id: "40-hooks/1400-custom-hooks", part: "40-hooks", title: "Writing Custom Hooks", estMinutes: 18, project: "vite-hooks-lab", level: "advanced" },
     { id: "40-hooks/1500-composing-and-testing-hooks", part: "40-hooks", title: "Composing & Testing Hooks", estMinutes: 15, project: "vite-hooks-lab", level: "advanced" },
     { id: "40-hooks/1600-project-kanban", part: "40-hooks", title: "Project: Build the Kanban Board", estMinutes: 55, project: "vite-hooks-lab", level: "advanced" },
+
+    // ---- Part 50 — Modern React 19.2 ----
+    { id: "50-modern-react/0100-suspense", part: "50-modern-react", title: "Suspense Fundamentals", estMinutes: 15, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/0200-use-hook", part: "50-modern-react", title: "The use() Hook", estMinutes: 14, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/0300-streaming-suspense", part: "50-modern-react", title: "Streaming & Suspense Boundaries", estMinutes: 14, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/0400-error-boundaries", part: "50-modern-react", title: "Error Boundaries", estMinutes: 14, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/0500-actions-and-forms", part: "50-modern-react", title: "Actions & Form Actions", estMinutes: 16, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/0600-useactionstate", part: "50-modern-react", title: "useActionState", estMinutes: 14, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/0700-useoptimistic", part: "50-modern-react", title: "useOptimistic", estMinutes: 14, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/0800-useformstatus", part: "50-modern-react", title: "useFormStatus", estMinutes: 10, project: "vite-hooks-lab", level: "advanced" },
   ],
 };
