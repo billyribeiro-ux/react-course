@@ -140,5 +140,12 @@ window.COURSE = {
     { id: "50-modern-react/0600-useactionstate", part: "50-modern-react", title: "useActionState", estMinutes: 14, project: "vite-hooks-lab", level: "advanced" },
     { id: "50-modern-react/0700-useoptimistic", part: "50-modern-react", title: "useOptimistic", estMinutes: 14, project: "vite-hooks-lab", level: "advanced" },
     { id: "50-modern-react/0800-useformstatus", part: "50-modern-react", title: "useFormStatus", estMinutes: 10, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/0900-activity", part: "50-modern-react", title: "<Activity>: Pre-rendering & Hiding UI", estMinutes: 12, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/1000-view-transitions", part: "50-modern-react", title: "View Transitions", estMinutes: 12, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/1100-server-components-concept", part: "50-modern-react", title: "Server Components: The Concept", estMinutes: 16, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/1200-react-compiler", part: "50-modern-react", title: "The React Compiler 1.0", estMinutes: 16, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/1300-compiler-output-opting-out", part: "50-modern-react", title: "Trusting the Compiler & Opting Out", estMinutes: 12, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/1400-concurrent-rendering", part: "50-modern-react", title: "The Concurrent Rendering Mental Model", estMinutes: 13, project: "vite-hooks-lab", level: "advanced" },
+    { id: "50-modern-react/1500-project-optimistic-ui", part: "50-modern-react", title: "Project: An Optimistic, Suspense-Driven Board", estMinutes: 50, project: "vite-hooks-lab", level: "advanced" },
   ],
 };
