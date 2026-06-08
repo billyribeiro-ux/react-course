@@ -37,13 +37,15 @@ window.COURSE = {
 
   // Ordered reading list. (Grows as parts are authored.)
   lessons: [
-    {
-      id: "00-intro/0100-welcome",
-      part: "00-intro",
-      title: "Welcome & How to Use This Course",
-      estMinutes: 12,
-      project: null,
-      level: "beginner",
-    },
+    // ---- Part 00 — Getting Started ----
+    { id: "00-intro/0100-welcome", part: "00-intro", title: "Welcome & How to Use This Course", estMinutes: 12, project: null, level: "beginner" },
+    { id: "00-intro/0200-what-is-a-program", part: "00-intro", title: "What a Computer & a Program Actually Are", estMinutes: 16, project: null, level: "beginner" },
+    { id: "00-intro/0300-how-the-web-works", part: "00-intro", title: "How the Internet & the Web Work", estMinutes: 18, project: null, level: "beginner" },
+    { id: "00-intro/0400-browsers-and-the-dom", part: "00-intro", title: "Browsers, the DOM & the Render Pipeline", estMinutes: 16, project: null, level: "beginner" },
+    { id: "00-intro/0500-html-css-js", part: "00-intro", title: "HTML, CSS & JavaScript — The Three Roles", estMinutes: 15, project: null, level: "beginner" },
+    { id: "00-intro/0600-toolkit-setup", part: "00-intro", title: "Installing Your Toolkit", estMinutes: 22, project: null, level: "beginner" },
+    { id: "00-intro/0700-git-and-github", part: "00-intro", title: "Git & GitHub From Zero", estMinutes: 24, project: null, level: "beginner" },
+    { id: "00-intro/0800-reading-docs-and-errors", part: "00-intro", title: "Reading Docs, Errors & Asking Good Questions", estMinutes: 18, project: null, level: "beginner" },
+    { id: "00-intro/0900-learning-mindset", part: "00-intro", title: "Your Mental Model for Learning to Code", estMinutes: 14, project: null, level: "beginner" },
   ],
 };
