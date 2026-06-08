@@ -92,5 +92,16 @@ window.COURSE = {
     { id: "20-typescript/1400-modules-and-declarations", part: "20-typescript", title: "Modules, Imports & Declaration Files", estMinutes: 13, project: "js-foundations", level: "advanced" },
     { id: "20-typescript/1500-tsconfig-explained", part: "20-typescript", title: "tsconfig.json Explained", estMinutes: 14, project: "js-foundations", level: "advanced" },
     { id: "20-typescript/1600-project-typed-dashboard", part: "20-typescript", title: "Project: Convert the Dashboard to TypeScript", estMinutes: 45, project: "js-foundations", level: "advanced" },
+
+    // ---- Part 30 — React Fundamentals ----
+    { id: "30-react-fundamentals/0100-what-is-react", part: "30-react-fundamentals", title: "What React Is & the Mental Model", estMinutes: 16, project: "vite-fundamentals", level: "beginner" },
+    { id: "30-react-fundamentals/0200-vite-project-tour", part: "30-react-fundamentals", title: "Your First React App: A Tour", estMinutes: 18, project: "vite-fundamentals", level: "beginner" },
+    { id: "30-react-fundamentals/0300-jsx-in-depth", part: "30-react-fundamentals", title: "JSX in Depth", estMinutes: 18, project: "vite-fundamentals", level: "beginner" },
+    { id: "30-react-fundamentals/0400-components-composition", part: "30-react-fundamentals", title: "Components & Composition", estMinutes: 16, project: "vite-fundamentals", level: "beginner" },
+    { id: "30-react-fundamentals/0500-props", part: "30-react-fundamentals", title: "Props: Passing Data to Components", estMinutes: 18, project: "vite-fundamentals", level: "beginner" },
+    { id: "30-react-fundamentals/0600-lists-and-keys", part: "30-react-fundamentals", title: "Rendering Lists & Keys", estMinutes: 16, project: "vite-fundamentals", level: "beginner" },
+    { id: "30-react-fundamentals/0700-conditional-rendering", part: "30-react-fundamentals", title: "Conditional Rendering", estMinutes: 14, project: "vite-fundamentals", level: "beginner" },
+    { id: "30-react-fundamentals/0800-handling-events", part: "30-react-fundamentals", title: "Handling Events", estMinutes: 15, project: "vite-fundamentals", level: "beginner" },
+    { id: "30-react-fundamentals/0900-usestate", part: "30-react-fundamentals", title: "State with useState", estMinutes: 20, project: "vite-fundamentals", level: "beginner" },
   ],
 };
