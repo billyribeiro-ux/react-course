@@ -38,3 +38,6 @@ Thumbs.db
 *.mobileprovision
 ios/
 android/
+
+# Next.js generated
+next-env.d.ts
