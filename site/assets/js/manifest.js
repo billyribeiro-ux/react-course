@@ -222,5 +222,11 @@ window.COURSE = {
     { id: "90-mobile/1500-eas-build", part: "90-mobile", title: "Building & Shipping with EAS", estMinutes: 14, project: "expo-mobile", level: "advanced" },
     { id: "90-mobile/1600-store-submission", part: "90-mobile", title: "Submitting to the App Store & Play Store", estMinutes: 13, project: "expo-mobile", level: "advanced" },
     { id: "90-mobile/1700-project-launchpad-mobile", part: "90-mobile", title: "Project: Ship LaunchPad Mobile", estMinutes: 90, project: "expo-mobile", level: "advanced" },
+
+    // ---- Part A0 — Testing & Quality ----
+    { id: "a0-testing/0100-testing-philosophy", part: "a0-testing", title: "Testing Philosophy & the Testing Trophy", estMinutes: 15, project: "vite-fundamentals", level: "advanced" },
+    { id: "a0-testing/0200-vitest-unit-tests", part: "a0-testing", title: "Vitest Setup & Unit Tests", estMinutes: 15, project: "vite-fundamentals", level: "advanced" },
+    { id: "a0-testing/0300-testing-hooks", part: "a0-testing", title: "Testing Custom Hooks & Reducers", estMinutes: 13, project: "vite-fundamentals", level: "advanced" },
+    { id: "a0-testing/0400-testing-library", part: "a0-testing", title: "React Testing Library: Testing Behavior", estMinutes: 16, project: "vite-fundamentals", level: "advanced" },
   ],
 };
