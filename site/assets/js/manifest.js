@@ -192,5 +192,10 @@ window.COURSE = {
     { id: "80-nextjs/0800-route-handlers", part: "80-nextjs", title: "Route Handlers: Building APIs", estMinutes: 14, project: "next-saas", level: "advanced" },
     { id: "80-nextjs/0900-database-drizzle", part: "80-nextjs", title: "Database with Drizzle + Postgres", estMinutes: 20, project: "next-saas", level: "advanced" },
     { id: "80-nextjs/1000-data-access-layer", part: "80-nextjs", title: "The Data Access Layer (DAL) Pattern", estMinutes: 14, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/1100-authentication", part: "80-nextjs", title: "Authentication", estMinutes: 18, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/1200-authorization", part: "80-nextjs", title: "Authorization & Protecting Routes/Actions", estMinutes: 16, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/1300-uploads-images", part: "80-nextjs", title: "File Uploads & Optimized Images", estMinutes: 14, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/1400-middleware-edge", part: "80-nextjs", title: "Middleware, Headers & Cookies", estMinutes: 14, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/1500-ppr-rendering-strategies", part: "80-nextjs", title: "Partial Prerendering & Rendering Strategies", estMinutes: 15, project: "next-saas", level: "advanced" },
   ],
 };
