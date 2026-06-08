@@ -147,5 +147,15 @@ window.COURSE = {
     { id: "50-modern-react/1300-compiler-output-opting-out", part: "50-modern-react", title: "Trusting the Compiler & Opting Out", estMinutes: 12, project: "vite-hooks-lab", level: "advanced" },
     { id: "50-modern-react/1400-concurrent-rendering", part: "50-modern-react", title: "The Concurrent Rendering Mental Model", estMinutes: 13, project: "vite-hooks-lab", level: "advanced" },
     { id: "50-modern-react/1500-project-optimistic-ui", part: "50-modern-react", title: "Project: An Optimistic, Suspense-Driven Board", estMinutes: 50, project: "vite-hooks-lab", level: "advanced" },
+
+    // ---- Part 60 — Styling, Design Systems & Accessibility ----
+    { id: "60-styling/0100-css-refresher", part: "60-styling", title: "CSS Refresher for App Developers", estMinutes: 18, project: "design-system", level: "intermediate" },
+    { id: "60-styling/0200-modern-css", part: "60-styling", title: "Modern CSS: Container Queries, :has(), OKLCH & Nesting", estMinutes: 16, project: "design-system", level: "advanced" },
+    { id: "60-styling/0300-css-modules", part: "60-styling", title: "CSS Modules & Styling Approaches in React", estMinutes: 14, project: "design-system", level: "intermediate" },
+    { id: "60-styling/0400-tailwind-v4", part: "60-styling", title: "Tailwind CSS v4: Setup & the CSS-First @theme", estMinutes: 18, project: "design-system", level: "intermediate" },
+    { id: "60-styling/0500-design-tokens-theming", part: "60-styling", title: "Design Tokens & Theming (Light/Dark)", estMinutes: 16, project: "design-system", level: "advanced" },
+    { id: "60-styling/0600-radix-primitives", part: "60-styling", title: "Accessible Primitives with Radix", estMinutes: 16, project: "design-system", level: "advanced" },
+    { id: "60-styling/0700-shadcn", part: "60-styling", title: "shadcn/ui: The Own-Your-Components Model", estMinutes: 14, project: "design-system", level: "advanced" },
+    { id: "60-styling/0800-cva-variants", part: "60-styling", title: "Component Variants with cva & cn()", estMinutes: 15, project: "design-system", level: "advanced" },
   ],
 };
