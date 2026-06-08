@@ -1,0 +1,6 @@
+# pnpm workspace — every runnable teaching app and shared package lives here.
+# The course website in `site/` is intentionally NOT a workspace: it is pure
+# static HTML/CSS/JS with no build step, so it stays robust and dependency-free.
+packages:
+  - "projects/*"
+  - "shared/*"

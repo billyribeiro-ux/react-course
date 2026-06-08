@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React: Beginner to Principal Engineer (L7++)</title>
+    <meta
+      name="description"
+      content="The complete hands-on React curriculum: JavaScript & TypeScript foundations, React 19.2, the React Compiler, Next.js 16, React Native & Expo, testing, and principal-level architecture."
+    />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/css/lesson.css" />
+    <script>
+      (function () {
+        try {
+          var t =
+            localStorage.getItem("course-theme") ||
+            (window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light");
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body data-page="landing">
+    <header id="header"></header>
+    <main class="main">
+      <div id="landing-root"></div>
+    </main>
+
+    <script src="assets/js/manifest.js"></script>
+    <script src="assets/js/lesson-api.js"></script>
+    <script src="assets/js/monaco-loader.js"></script>
+    <script src="assets/js/shell.js"></script>
+  </body>
+</html>

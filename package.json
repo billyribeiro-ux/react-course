@@ -1,0 +1,32 @@
+{
+  "name": "react-course",
+  "version": "0.1.0",
+  "private": true,
+  "description": "React: Beginner to Distinguished Principal Engineer (L7++) — the complete, hands-on, university-grade React course.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "site": "npx -y serve site",
+    "check:lessons": "node tools/check-manifest.mjs",
+    "vite": "pnpm --filter vite-fundamentals dev",
+    "hooks": "pnpm --filter vite-hooks-lab dev",
+    "design": "pnpm --filter design-system storybook",
+    "data": "pnpm --filter data-routing-app dev",
+    "next": "pnpm --filter next-saas dev",
+    "expo": "pnpm --filter expo-mobile start",
+    "install:all": "pnpm install"
+  },
+  "keywords": [
+    "react",
+    "course",
+    "typescript",
+    "nextjs",
+    "react-native",
+    "expo",
+    "curriculum"
+  ],
+  "license": "MIT"
+}

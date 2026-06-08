@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson • React: Beginner to Principal Engineer</title>
+    <meta
+      name="description"
+      content="A hands-on, university-grade React course — from absolute beginner to principal engineer."
+    />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/css/lesson.css" />
+    <!-- Pre-paint theme to avoid a flash of the wrong color scheme. -->
+    <script>
+      (function () {
+        try {
+          var t =
+            localStorage.getItem("course-theme") ||
+            (window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light");
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body data-page="lesson">
+    <div class="app" id="app" data-nav-open="false">
+      <header id="header"></header>
+      <aside class="sidebar" id="sidebar"></aside>
+      <main class="main">
+        <div id="lesson-root" class="lesson"></div>
+      </main>
+    </div>
+
+    <!-- Order matters: manifest defines window.COURSE used by the rest. -->
+    <script src="assets/js/manifest.js"></script>
+    <script src="assets/js/lesson-api.js"></script>
+    <script src="assets/js/monaco-loader.js"></script>
+    <script src="assets/js/shell.js"></script>
+  </body>
+</html>
