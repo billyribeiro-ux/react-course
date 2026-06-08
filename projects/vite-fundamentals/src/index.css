@@ -46,3 +46,26 @@ select {
   background: #181b24;
   color: inherit;
 }
+
+/* Recipe Finder reference styles */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.count {
+  color: #9aa2b1;
+  font-size: 0.9rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.card .meta {
+  color: #9aa2b1;
+  font-size: 0.9rem;
+  margin: 0.25rem 0 0.75rem;
+}
