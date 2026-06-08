@@ -197,5 +197,11 @@ window.COURSE = {
     { id: "80-nextjs/1300-uploads-images", part: "80-nextjs", title: "File Uploads & Optimized Images", estMinutes: 14, project: "next-saas", level: "advanced" },
     { id: "80-nextjs/1400-middleware-edge", part: "80-nextjs", title: "Middleware, Headers & Cookies", estMinutes: 14, project: "next-saas", level: "advanced" },
     { id: "80-nextjs/1500-ppr-rendering-strategies", part: "80-nextjs", title: "Partial Prerendering & Rendering Strategies", estMinutes: 15, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/1600-metadata-seo", part: "80-nextjs", title: "Metadata & SEO", estMinutes: 13, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/1700-caching-revalidation", part: "80-nextjs", title: "Caching, Revalidation & ISR", estMinutes: 16, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/1800-error-handling-sentry", part: "80-nextjs", title: "Error Handling, Logging & Observability", estMinutes: 14, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/1900-env-config-secrets", part: "80-nextjs", title: "Environment, Config & Secrets", estMinutes: 12, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/2000-deployment", part: "80-nextjs", title: "Deployment to Production", estMinutes: 14, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/2100-project-launchpad", part: "80-nextjs", title: "Project: Ship LaunchPad (Full-Stack SaaS)", estMinutes: 90, project: "next-saas", level: "advanced" },
   ],
 };
