@@ -168,5 +168,10 @@ window.COURSE = {
     { id: "70-data-routing/0200-tanstack-router", part: "70-data-routing", title: "TanStack Router: Type-Safe Routes & Params", estMinutes: 18, project: "data-routing-app", level: "advanced" },
     { id: "70-data-routing/0300-loaders-search-params", part: "70-data-routing", title: "Loaders, Search Params & Nested Layouts", estMinutes: 17, project: "data-routing-app", level: "advanced" },
     { id: "70-data-routing/0400-react-router-v7", part: "70-data-routing", title: "React Router v7 — When & Why", estMinutes: 12, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/0500-server-vs-client-state", part: "70-data-routing", title: "Server State vs Client State", estMinutes: 13, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/0600-tanstack-query-basics", part: "70-data-routing", title: "TanStack Query: Queries, Caching & Keys", estMinutes: 18, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/0700-mutations-invalidation", part: "70-data-routing", title: "Mutations & Cache Invalidation", estMinutes: 16, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/0800-optimistic-pagination", part: "70-data-routing", title: "Optimistic Updates, Pagination & Infinite Queries", estMinutes: 18, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/0900-prefetching-suspense", part: "70-data-routing", title: "Prefetching & Suspense Integration", estMinutes: 14, project: "data-routing-app", level: "advanced" },
   ],
 };
