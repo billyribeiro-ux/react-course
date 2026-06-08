@@ -210,5 +210,11 @@ window.COURSE = {
     { id: "90-mobile/0300-core-components-styling", part: "90-mobile", title: "Core Components & Styling", estMinutes: 16, project: "expo-mobile", level: "advanced" },
     { id: "90-mobile/0400-nativewind", part: "90-mobile", title: "NativeWind: Tailwind on Mobile", estMinutes: 13, project: "expo-mobile", level: "advanced" },
     { id: "90-mobile/0500-expo-router", part: "90-mobile", title: "Expo Router: File-Based Navigation", estMinutes: 15, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/0600-navigation-patterns", part: "90-mobile", title: "Navigation Patterns: Stacks, Tabs & Modals", estMinutes: 14, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/0700-lists-performance", part: "90-mobile", title: "Lists & Performance with FlashList", estMinutes: 14, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/0800-forms-keyboard", part: "90-mobile", title: "Forms & Keyboard Handling", estMinutes: 13, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/0900-networking-query", part: "90-mobile", title: "Networking & TanStack Query on Mobile", estMinutes: 13, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/1000-storage-offline", part: "90-mobile", title: "Local Storage & Offline Support", estMinutes: 14, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/1100-native-apis", part: "90-mobile", title: "Native APIs: Camera, Notifications & Location", estMinutes: 16, project: "expo-mobile", level: "advanced" },
   ],
 };
