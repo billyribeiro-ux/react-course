@@ -123,5 +123,12 @@ window.COURSE = {
     { id: "40-hooks/0700-usereducer", part: "40-hooks", title: "useReducer: State Transitions as Data", estMinutes: 18, project: "vite-hooks-lab", level: "advanced" },
     { id: "40-hooks/0800-usecontext", part: "40-hooks", title: "useContext: Avoiding Prop Drilling", estMinutes: 18, project: "vite-hooks-lab", level: "advanced" },
     { id: "40-hooks/0900-usememo-usecallback", part: "40-hooks", title: "useMemo, useCallback & the Compiler", estMinutes: 18, project: "vite-hooks-lab", level: "advanced" },
+    { id: "40-hooks/1000-useid", part: "40-hooks", title: "useId: Stable Unique IDs", estMinutes: 10, project: "vite-hooks-lab", level: "intermediate" },
+    { id: "40-hooks/1100-usetransition-usedeferredvalue", part: "40-hooks", title: "Concurrent UI: useTransition & useDeferredValue", estMinutes: 16, project: "vite-hooks-lab", level: "advanced" },
+    { id: "40-hooks/1200-usesyncexternalstore", part: "40-hooks", title: "useSyncExternalStore: Subscribing to External State", estMinutes: 14, project: "vite-hooks-lab", level: "advanced" },
+    { id: "40-hooks/1300-useeffectevent", part: "40-hooks", title: "useEffectEvent: Separating Events from Effects", estMinutes: 14, project: "vite-hooks-lab", level: "advanced" },
+    { id: "40-hooks/1400-custom-hooks", part: "40-hooks", title: "Writing Custom Hooks", estMinutes: 18, project: "vite-hooks-lab", level: "advanced" },
+    { id: "40-hooks/1500-composing-and-testing-hooks", part: "40-hooks", title: "Composing & Testing Hooks", estMinutes: 15, project: "vite-hooks-lab", level: "advanced" },
+    { id: "40-hooks/1600-project-kanban", part: "40-hooks", title: "Project: Build the Kanban Board", estMinutes: 55, project: "vite-hooks-lab", level: "advanced" },
   ],
 };
