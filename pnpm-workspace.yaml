@@ -3,4 +3,8 @@
 # static HTML/CSS/JS with no build step, so it stays robust and dependency-free.
 packages:
   - "projects/*"
+  # expo-mobile is a standalone Expo app: React Native's Metro bundler and
+  # native-dependency hoisting don't play well inside a pnpm workspace, so it
+  # has its own install. Run it from its own folder (see its README).
+  - "!projects/expo-mobile"
   - "shared/*"
