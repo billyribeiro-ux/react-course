@@ -46,17 +46,41 @@ importScripts("${CDN}/base/worker/workerMain.js");`;
 
       await injectScript(`${CDN}/loader.js`);
 
+      // Load the editor. The AMD require's success/error callbacks can BOTH
+      // fail to fire if Monaco's module evaluation hiccups — so we race it
+      // against a hard timeout. A stuck load then rejects and callers fall
+      // back to <pre>, instead of the lesson hanging forever.
       await new Promise((resolve, reject) => {
         if (!window.require) {
           reject(new Error("Monaco AMD loader missing"));
           return;
         }
+        const timer = setTimeout(
+          () => reject(new Error("Monaco load timed out")),
+          15000
+        );
+        const done = () => {
+          clearTimeout(timer);
+          // Resolve only once Monaco is genuinely usable.
+          if (window.monaco && window.monaco.editor) resolve();
+          else reject(new Error("Monaco loaded but is unusable"));
+        };
         window.require.config({ paths: { vs: CDN } });
-        window.require(["vs/editor/editor.main"], resolve, reject);
+        window.require(["vs/editor/editor.main"], done, reject);
       });
 
-      configureLanguages();
-      defineThemes();
+      // Language/theme setup is best-effort — never let it break a working
+      // editor (APIs shift between Monaco versions).
+      try {
+        configureLanguages();
+      } catch {
+        /* fragments don't need TS diagnostics; ignore */
+      }
+      try {
+        defineThemes();
+      } catch {
+        /* fall back to Monaco's built-in vs/vs-dark themes */
+      }
       return window.monaco;
     })().catch((err) => {
       // Reset so a later mount could retry, but signal failure now.

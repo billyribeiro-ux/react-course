@@ -41,3 +41,7 @@ android/
 
 # Next.js generated
 next-env.d.ts
+
+# Browser-verification artifacts
+site/assets/img/screenshot-*.png
+playwright-report/

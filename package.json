@@ -21,7 +21,8 @@
     "data": "pnpm --filter data-routing-app dev",
     "next": "pnpm --filter next-saas dev",
     "expo": "echo 'expo-mobile is standalone: cd projects/expo-mobile && npm install && npx expo start'",
-    "install:all": "pnpm install"
+    "install:all": "pnpm install",
+    "check:browser": "node tools/verify-browser.mjs"
   },
   "keywords": [
     "react",
@@ -32,5 +33,8 @@
     "expo",
     "curriculum"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  }
 }

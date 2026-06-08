@@ -265,22 +265,12 @@
       }
     };
 
-    if ("IntersectionObserver" in window) {
-      const io = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((e) => {
-            if (e.isIntersecting) {
-              mountOne(e.target);
-              io.unobserve(e.target);
-            }
-          });
-        },
-        { rootMargin: "400px 0px" }
-      );
-      panes.forEach((p) => io.observe(p));
-    } else {
-      panes.forEach(mountOne);
-    }
+    // Mount every pane. A lesson has only a handful of read-only editors, so
+    // eager mounting is reliable and fast — far less fragile than lazy
+    // IntersectionObserver mounting (which can silently no-op in some
+    // environments). Editors auto-size to their content, so off-screen ones
+    // are cheap.
+    panes.forEach(mountOne);
   }
 
   /* ---------------- lesson rendering ---------------- */
