@@ -180,5 +180,12 @@ window.COURSE = {
     { id: "70-data-routing/1400-react-hook-form", part: "70-data-routing", title: "Forms with React Hook Form", estMinutes: 16, project: "data-routing-app", level: "advanced" },
     { id: "70-data-routing/1500-zod", part: "70-data-routing", title: "Validation & Schemas with Zod", estMinutes: 16, project: "data-routing-app", level: "advanced" },
     { id: "70-data-routing/1600-project-job-board", part: "70-data-routing", title: "Project: The Full Job Board", estMinutes: 60, project: "data-routing-app", level: "advanced" },
+
+    // ---- Part 80 — Full-Stack with Next.js 16 ----
+    { id: "80-nextjs/0100-nextjs-mental-model", part: "80-nextjs", title: "The Next.js Mental Model & App Router", estMinutes: 16, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/0200-server-client-components", part: "80-nextjs", title: "Server vs Client Components: The Boundary", estMinutes: 18, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/0300-routing-layouts", part: "80-nextjs", title: "Layouts, Route Groups & Dynamic Routes", estMinutes: 17, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/0400-loading-error-streaming", part: "80-nextjs", title: "loading.tsx, error.tsx & Streaming", estMinutes: 15, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/0500-data-fetching-caching", part: "80-nextjs", title: "Data Fetching & the Caching Model", estMinutes: 17, project: "next-saas", level: "advanced" },
   ],
 };
