@@ -713,3 +713,45 @@ a:hover {
     animation: none !important;
   }
 }
+
+/* ---------- Diagrams ---------- */
+.diagram {
+  margin: var(--space-5) 0;
+  padding: var(--space-5);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-sunken);
+  text-align: center;
+}
+.diagram-canvas svg {
+  max-width: 100%;
+  height: auto;
+  color: var(--text);
+}
+.diagram figcaption {
+  margin-top: var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+}
+.diagram .d-box {
+  fill: var(--bg-elev);
+  stroke: var(--border-strong);
+}
+.diagram .d-accent {
+  fill: var(--brand-tint);
+  stroke: var(--brand);
+}
+.diagram .d-line {
+  stroke: var(--text-faint);
+  fill: none;
+}
+.diagram .d-text {
+  fill: var(--text);
+  font-family: var(--font-sans);
+  font-size: 13px;
+}
+.diagram .d-muted {
+  fill: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+}

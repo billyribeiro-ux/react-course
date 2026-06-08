@@ -96,7 +96,19 @@
 </section>`;
   }
 
-  const helpers = { codePane, callout, exercise, escapeHtml };
+  /**
+   * An inline SVG diagram with an accessible label and a caption. The SVG
+   * should use `currentColor` / the theme CSS vars so it adapts to light/dark.
+   */
+  function diagram({ svg = "", caption = "", label = "" }) {
+    return `
+<figure class="diagram" role="img"${label ? ` aria-label="${escapeHtml(label)}"` : ""}>
+  <div class="diagram-canvas">${svg}</div>
+  ${caption ? `<figcaption>${caption}</figcaption>` : ""}
+</figure>`;
+  }
+
+  const helpers = { codePane, callout, exercise, diagram, escapeHtml };
 
   /**
    * Called by each lesson fragment. The shell sets up a one-shot resolver

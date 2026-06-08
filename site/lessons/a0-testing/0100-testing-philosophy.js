@@ -46,6 +46,25 @@ registerLesson({
         <li><strong>End-to-End (E2E)</strong> (the top) — drive the real app in a browser through critical flows. Slow but high-confidence; keep few.</li>
       </ul>
 
+      ${h.diagram({
+        label:
+          "The testing trophy: a wide static-analysis base, then unit tests, the largest integration layer, and a small end-to-end cap.",
+        caption:
+          "Lean on free static typing, write plenty of integration tests, and keep E2E tests few.",
+        svg: `<svg viewBox="0 0 520 280" xmlns="http://www.w3.org/2000/svg">
+  <rect class="d-accent" x="210" y="20" width="100" height="34" rx="6"/>
+  <text class="d-text" x="260" y="42" text-anchor="middle">E2E (few)</text>
+  <rect class="d-box" x="120" y="64" width="280" height="56" rx="6"/>
+  <text class="d-text" x="260" y="97" text-anchor="middle" font-weight="700">Integration (most value)</text>
+  <rect class="d-box" x="160" y="130" width="200" height="48" rx="6"/>
+  <text class="d-text" x="260" y="159" text-anchor="middle">Unit</text>
+  <rect class="d-box" x="60" y="188" width="400" height="48" rx="6"/>
+  <text class="d-text" x="260" y="217" text-anchor="middle">Static (TypeScript + ESLint — free)</text>
+  <text class="d-muted" x="500" y="44" text-anchor="end">↑ more confidence</text>
+  <text class="d-muted" x="500" y="232" text-anchor="end">↑ faster · cheaper ↓</text>
+</svg>`,
+      })}
+
       ${h.callout({
         kind: "principal",
         title: "Favor integration tests",

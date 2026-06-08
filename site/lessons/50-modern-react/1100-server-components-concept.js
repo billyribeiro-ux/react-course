@@ -68,6 +68,34 @@ function LikeButton() {
         to the browser) and is the single biggest reason apps built this way are faster and lighter.</p>`,
       })}
 
+      ${h.diagram({
+        label:
+          "A component tree where most nodes are Server Components shipping no JavaScript, with a small interactive Client Component island marked use client.",
+        caption:
+          "Server Components by default (0 JS); opt into small Client Component islands only where you need interactivity.",
+        svg: `<svg viewBox="0 0 560 250" xmlns="http://www.w3.org/2000/svg">
+  <rect class="d-box" x="200" y="20" width="160" height="46" rx="6"/>
+  <text class="d-text" x="280" y="41" text-anchor="middle" font-weight="700">Page (Server)</text>
+  <text class="d-muted" x="280" y="58" text-anchor="middle">ships 0 JS</text>
+
+  <path class="d-line" d="M280 66 V90 H120 V110"/>
+  <path class="d-line" d="M280 66 V90 H440 V110"/>
+  <path class="d-line" d="M280 66 V110"/>
+
+  <rect class="d-box" x="40" y="110" width="160" height="44" rx="6"/>
+  <text class="d-text" x="120" y="137" text-anchor="middle">Header (Server)</text>
+  <rect class="d-box" x="360" y="110" width="160" height="44" rx="6"/>
+  <text class="d-text" x="440" y="137" text-anchor="middle">RecipeList (Server)</text>
+
+  <rect class="d-accent" x="200" y="110" width="160" height="60" rx="6"/>
+  <text class="d-text" x="280" y="133" text-anchor="middle" font-weight="700">LikeButton</text>
+  <text class="d-muted" x="280" y="151" text-anchor="middle">"use client"</text>
+  <text class="d-muted" x="280" y="165" text-anchor="middle">ships JS (island)</text>
+
+  <text class="d-muted" x="280" y="210" text-anchor="middle">data + props flow down → from Server into the Client island</text>
+</svg>`,
+      })}
+
       <h2>Why this matters</h2>
       <ul>
         <li><strong>Less JavaScript</strong> — server components ship zero JS, so pages are lighter and faster to load and become interactive.</li>
