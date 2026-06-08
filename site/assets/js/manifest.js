@@ -173,5 +173,12 @@ window.COURSE = {
     { id: "70-data-routing/0700-mutations-invalidation", part: "70-data-routing", title: "Mutations & Cache Invalidation", estMinutes: 16, project: "data-routing-app", level: "advanced" },
     { id: "70-data-routing/0800-optimistic-pagination", part: "70-data-routing", title: "Optimistic Updates, Pagination & Infinite Queries", estMinutes: 18, project: "data-routing-app", level: "advanced" },
     { id: "70-data-routing/0900-prefetching-suspense", part: "70-data-routing", title: "Prefetching & Suspense Integration", estMinutes: 14, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/1000-zustand", part: "70-data-routing", title: "Client State with Zustand", estMinutes: 16, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/1100-jotai", part: "70-data-routing", title: "Atomic State with Jotai", estMinutes: 13, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/1200-redux-toolkit", part: "70-data-routing", title: "Redux Toolkit: Enterprise State", estMinutes: 15, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/1300-url-as-state", part: "70-data-routing", title: "The URL as State", estMinutes: 12, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/1400-react-hook-form", part: "70-data-routing", title: "Forms with React Hook Form", estMinutes: 16, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/1500-zod", part: "70-data-routing", title: "Validation & Schemas with Zod", estMinutes: 16, project: "data-routing-app", level: "advanced" },
+    { id: "70-data-routing/1600-project-job-board", part: "70-data-routing", title: "Project: The Full Job Board", estMinutes: 60, project: "data-routing-app", level: "advanced" },
   ],
 };
