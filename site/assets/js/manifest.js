@@ -203,5 +203,12 @@ window.COURSE = {
     { id: "80-nextjs/1900-env-config-secrets", part: "80-nextjs", title: "Environment, Config & Secrets", estMinutes: 12, project: "next-saas", level: "advanced" },
     { id: "80-nextjs/2000-deployment", part: "80-nextjs", title: "Deployment to Production", estMinutes: 14, project: "next-saas", level: "advanced" },
     { id: "80-nextjs/2100-project-launchpad", part: "80-nextjs", title: "Project: Ship LaunchPad (Full-Stack SaaS)", estMinutes: 90, project: "next-saas", level: "advanced" },
+
+    // ---- Part 90 — Mobile with React Native + Expo ----
+    { id: "90-mobile/0100-rn-mental-model", part: "90-mobile", title: "React Native & the New Architecture", estMinutes: 16, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/0200-expo-setup", part: "90-mobile", title: "Expo: The Best Way to Build React Native", estMinutes: 14, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/0300-core-components-styling", part: "90-mobile", title: "Core Components & Styling", estMinutes: 16, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/0400-nativewind", part: "90-mobile", title: "NativeWind: Tailwind on Mobile", estMinutes: 13, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/0500-expo-router", part: "90-mobile", title: "Expo Router: File-Based Navigation", estMinutes: 15, project: "expo-mobile", level: "advanced" },
   ],
 };
