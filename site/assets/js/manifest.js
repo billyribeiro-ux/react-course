@@ -256,5 +256,11 @@ window.COURSE = {
     { id: "b0-principal/1300-security", part: "b0-principal", title: "Frontend & Full-Stack Security", estMinutes: 17, project: "next-saas", level: "principal" },
     { id: "b0-principal/1400-observability", part: "b0-principal", title: "Observability: Logs, Traces, Metrics & Analytics", estMinutes: 13, project: "next-saas", level: "principal" },
     { id: "b0-principal/1500-cicd", part: "b0-principal", title: "CI/CD & Release Engineering", estMinutes: 14, project: "next-saas", level: "principal" },
+    { id: "b0-principal/1600-feature-flags", part: "b0-principal", title: "Feature Flags, A/B Testing & Progressive Delivery", estMinutes: 13, project: "next-saas", level: "principal" },
+    { id: "b0-principal/1700-rendering-strategies", part: "b0-principal", title: "Rendering Strategies: A Decision Guide", estMinutes: 14, project: "next-saas", level: "principal" },
+    { id: "b0-principal/1800-micro-frontends", part: "b0-principal", title: "Micro-Frontends: When & When Not", estMinutes: 12, project: null, level: "principal" },
+    { id: "b0-principal/1900-frontend-system-design", part: "b0-principal", title: "Frontend System Design", estMinutes: 18, project: null, level: "principal" },
+    { id: "b0-principal/2000-reading-source-oss", part: "b0-principal", title: "Reading Source & Contributing to Open Source", estMinutes: 13, project: null, level: "principal" },
+    { id: "b0-principal/2100-senior-craft", part: "b0-principal", title: "The Senior Craft: RFCs, Reviews, Writing & Leadership", estMinutes: 17, project: null, level: "principal" },
   ],
 };
