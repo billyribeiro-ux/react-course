@@ -187,5 +187,10 @@ window.COURSE = {
     { id: "80-nextjs/0300-routing-layouts", part: "80-nextjs", title: "Layouts, Route Groups & Dynamic Routes", estMinutes: 17, project: "next-saas", level: "advanced" },
     { id: "80-nextjs/0400-loading-error-streaming", part: "80-nextjs", title: "loading.tsx, error.tsx & Streaming", estMinutes: 15, project: "next-saas", level: "advanced" },
     { id: "80-nextjs/0500-data-fetching-caching", part: "80-nextjs", title: "Data Fetching & the Caching Model", estMinutes: 17, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/0600-server-actions", part: "80-nextjs", title: "Mutations with Server Actions", estMinutes: 18, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/0700-forms-end-to-end", part: "80-nextjs", title: "Forms End-to-End: Actions + useActionState + Zod", estMinutes: 18, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/0800-route-handlers", part: "80-nextjs", title: "Route Handlers: Building APIs", estMinutes: 14, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/0900-database-drizzle", part: "80-nextjs", title: "Database with Drizzle + Postgres", estMinutes: 20, project: "next-saas", level: "advanced" },
+    { id: "80-nextjs/1000-data-access-layer", part: "80-nextjs", title: "The Data Access Layer (DAL) Pattern", estMinutes: 14, project: "next-saas", level: "advanced" },
   ],
 };
