@@ -216,5 +216,11 @@ window.COURSE = {
     { id: "90-mobile/0900-networking-query", part: "90-mobile", title: "Networking & TanStack Query on Mobile", estMinutes: 13, project: "expo-mobile", level: "advanced" },
     { id: "90-mobile/1000-storage-offline", part: "90-mobile", title: "Local Storage & Offline Support", estMinutes: 14, project: "expo-mobile", level: "advanced" },
     { id: "90-mobile/1100-native-apis", part: "90-mobile", title: "Native APIs: Camera, Notifications & Location", estMinutes: 16, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/1200-reanimated-gestures", part: "90-mobile", title: "Animations with Reanimated & Gestures", estMinutes: 15, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/1300-expo-ui-platform", part: "90-mobile", title: "Expo UI & Platform Differences", estMinutes: 12, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/1400-rsc-on-mobile", part: "90-mobile", title: "React Server Components on Mobile", estMinutes: 11, project: "expo-mobile", level: "principal" },
+    { id: "90-mobile/1500-eas-build", part: "90-mobile", title: "Building & Shipping with EAS", estMinutes: 14, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/1600-store-submission", part: "90-mobile", title: "Submitting to the App Store & Play Store", estMinutes: 13, project: "expo-mobile", level: "advanced" },
+    { id: "90-mobile/1700-project-launchpad-mobile", part: "90-mobile", title: "Project: Ship LaunchPad Mobile", estMinutes: 90, project: "expo-mobile", level: "advanced" },
   ],
 };
