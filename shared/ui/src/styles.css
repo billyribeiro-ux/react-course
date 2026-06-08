@@ -1,0 +1,16 @@
+/* Shared design tokens for apps consuming shared-ui. Import alongside
+   Tailwind: `@import "tailwindcss"; @import "shared-ui/styles.css";`
+   (apps remap these semantic tokens for their own light/dark themes). */
+@theme {
+  --color-bg: oklch(99% 0.004 250);
+  --color-surface: oklch(100% 0 0);
+  --color-fg: oklch(25% 0.02 260);
+  --color-muted: oklch(48% 0.02 260);
+  --color-border: oklch(90% 0.01 250);
+  --color-brand: oklch(58% 0.18 255);
+  --color-brand-hover: oklch(50% 0.2 255);
+  --color-brand-fg: oklch(99% 0 0);
+  --color-danger: oklch(58% 0.2 25);
+  --color-danger-fg: oklch(99% 0 0);
+  --radius-md: 0.625rem;
+}

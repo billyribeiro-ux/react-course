@@ -157,5 +157,10 @@ window.COURSE = {
     { id: "60-styling/0600-radix-primitives", part: "60-styling", title: "Accessible Primitives with Radix", estMinutes: 16, project: "design-system", level: "advanced" },
     { id: "60-styling/0700-shadcn", part: "60-styling", title: "shadcn/ui: The Own-Your-Components Model", estMinutes: 14, project: "design-system", level: "advanced" },
     { id: "60-styling/0800-cva-variants", part: "60-styling", title: "Component Variants with cva & cn()", estMinutes: 15, project: "design-system", level: "advanced" },
+    { id: "60-styling/0900-motion", part: "60-styling", title: "Animation with Motion", estMinutes: 15, project: "design-system", level: "advanced" },
+    { id: "60-styling/1000-accessibility-semantics", part: "60-styling", title: "Accessibility I: Semantics, Roles & Keyboard", estMinutes: 17, project: "design-system", level: "advanced" },
+    { id: "60-styling/1100-accessibility-aria", part: "60-styling", title: "Accessibility II: Focus, ARIA & Screen Readers", estMinutes: 17, project: "design-system", level: "advanced" },
+    { id: "60-styling/1200-storybook", part: "60-styling", title: "Documenting Components in Storybook", estMinutes: 15, project: "design-system", level: "advanced" },
+    { id: "60-styling/1300-project-component-library", part: "60-styling", title: "Project: Ship a Themed, Accessible Component Library", estMinutes: 60, project: "design-system", level: "advanced" },
   ],
 };

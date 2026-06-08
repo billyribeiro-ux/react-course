@@ -1,0 +1,20 @@
+{
+  "name": "shared-ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Shared, themed, accessible component library consumed across the course's apps (web + mobile-web).",
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles.css": "./src/styles.css"
+  },
+  "peerDependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.6.0"
+  }
+}
