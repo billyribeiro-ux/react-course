@@ -112,5 +112,16 @@ window.COURSE = {
     { id: "30-react-fundamentals/1600-render-pitfalls", part: "30-react-fundamentals", title: "Fragments, Keys & Rendering Pitfalls", estMinutes: 14, project: "vite-fundamentals", level: "intermediate" },
     { id: "30-react-fundamentals/1700-fetching-data-preview", part: "30-react-fundamentals", title: "Fetching Data (and the useEffect Caveat)", estMinutes: 16, project: "vite-fundamentals", level: "intermediate" },
     { id: "30-react-fundamentals/1800-project-recipe-finder", part: "30-react-fundamentals", title: "Project: Build the Recipe Finder", estMinutes: 50, project: "vite-fundamentals", level: "intermediate" },
+
+    // ---- Part 40 — Hooks Deep Dive ----
+    { id: "40-hooks/0100-rules-of-hooks", part: "40-hooks", title: "What Hooks Are & the Rules of Hooks", estMinutes: 15, project: "vite-hooks-lab", level: "intermediate" },
+    { id: "40-hooks/0200-usestate-deeply", part: "40-hooks", title: "useState, Deeply", estMinutes: 16, project: "vite-hooks-lab", level: "intermediate" },
+    { id: "40-hooks/0300-useeffect-synchronization", part: "40-hooks", title: "useEffect: Synchronization, Not Lifecycles", estMinutes: 18, project: "vite-hooks-lab", level: "intermediate" },
+    { id: "40-hooks/0400-effect-dependencies-cleanup", part: "40-hooks", title: "Effect Dependencies & Cleanup", estMinutes: 17, project: "vite-hooks-lab", level: "advanced" },
+    { id: "40-hooks/0500-when-not-to-use-effects", part: "40-hooks", title: "You Might Not Need an Effect", estMinutes: 17, project: "vite-hooks-lab", level: "advanced" },
+    { id: "40-hooks/0600-useref", part: "40-hooks", title: "useRef: Escaping Render & Reaching the DOM", estMinutes: 15, project: "vite-hooks-lab", level: "intermediate" },
+    { id: "40-hooks/0700-usereducer", part: "40-hooks", title: "useReducer: State Transitions as Data", estMinutes: 18, project: "vite-hooks-lab", level: "advanced" },
+    { id: "40-hooks/0800-usecontext", part: "40-hooks", title: "useContext: Avoiding Prop Drilling", estMinutes: 18, project: "vite-hooks-lab", level: "advanced" },
+    { id: "40-hooks/0900-usememo-usecallback", part: "40-hooks", title: "useMemo, useCallback & the Compiler", estMinutes: 18, project: "vite-hooks-lab", level: "advanced" },
   ],
 };
