@@ -3,21 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Dashboard — JS Foundations</title>
+    <title>Personal Dashboard — JS/TS Foundations</title>
     <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
-    <!--
-      This is the project you build across Part 10 (JavaScript) and Part 20
-      (TypeScript). It starts almost empty on purpose — you'll add to it,
-      lesson by lesson, until it's a real interactive dashboard.
-    -->
     <div id="app">
-      <h1>My Personal Dashboard</h1>
-      <p id="intro">Follow the lessons to bring this to life.</p>
+      <header class="dash-header">
+        <div>
+          <h1 id="greeting">Hello</h1>
+          <p id="quote" class="quote">Loading a quote…</p>
+        </div>
+        <time id="clock" class="clock">--:--:--</time>
+      </header>
+
+      <section class="tasks">
+        <form id="task-form">
+          <input id="task-input" placeholder="Add a task…" aria-label="New task" />
+          <button type="submit">Add</button>
+        </form>
+        <p id="stats" class="stats"></p>
+        <ul id="task-list" class="task-list"></ul>
+      </section>
     </div>
 
-    <!-- Vite serves and live-reloads this module as you edit it. -->
-    <script type="module" src="/src/main.js"></script>
+    <!-- The completed Part 10 (vanilla JS) → Part 20 (TypeScript) reference. -->
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

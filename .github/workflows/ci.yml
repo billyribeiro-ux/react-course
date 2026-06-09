@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  # Core quality gate: content integrity + every project's typecheck, lint,
+  # tests, and build. This is the "all checks pass" guarantee (Part A0/1400).
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      # Course content integrity: manifest ↔ files, render(), snippet syntax.
+      - run: pnpm check
+
+      # Per-project checks across the workspace (expo-mobile is standalone).
+      - run: pnpm -r typecheck
+      - run: pnpm -r lint
+      - run: pnpm -r test
+      - run: pnpm -r build
+
+  # Real-browser verification of the course site (Monaco + fallback + nav).
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm check:browser
+
+  # End-to-end smoke test of the LaunchPad full-stack reference.
+  launchpad:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm check:launchpad

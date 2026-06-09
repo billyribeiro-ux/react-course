@@ -7,7 +7,8 @@
     // TypeScript file-by-file in Part 20, so allow .js inputs. checkJs stays
     // off — untyped .js isn't error-checked until you rename it to .ts.
     "allowJs": true,
-    "checkJs": false
+    "checkJs": false,
+    "allowImportingTsExtensions": true
   },
   "include": ["src"]
 }

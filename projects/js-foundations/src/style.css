@@ -54,3 +54,62 @@ button {
   font-weight: 600;
   cursor: pointer;
 }
+
+/* Personal Dashboard layout */
+.dash-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.clock {
+  font-variant-numeric: tabular-nums;
+  font-size: 1.25rem;
+  color: var(--muted);
+}
+.quote {
+  color: var(--muted);
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+.tasks {
+  margin-top: 1.5rem;
+}
+#task-form {
+  display: flex;
+  gap: 0.5rem;
+}
+#task-form input {
+  flex: 1;
+}
+.stats {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.task-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+.task-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.7rem;
+  background: #1f2330;
+  border: 1px solid #2c3140;
+  border-radius: 8px;
+}
+.task-list li.done span {
+  text-decoration: line-through;
+  color: var(--muted);
+}
+.task-list li span {
+  flex: 1;
+}
+.task-list button {
+  background: transparent;
+  color: var(--muted);
+  padding: 0.2rem 0.4rem;
+}
