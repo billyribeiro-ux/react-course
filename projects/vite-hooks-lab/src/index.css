@@ -69,3 +69,49 @@ textarea {
   background: #181b24;
   color: inherit;
 }
+
+/* Kanban card/column extras */
+.column h2 {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.badge {
+  font-size: 0.75rem;
+  background: #262a36;
+  color: #9aa2b1;
+  border-radius: 999px;
+  padding: 0.05rem 0.5rem;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  cursor: grab;
+}
+.card button {
+  background: transparent;
+  color: #9aa2b1;
+  border: none;
+  padding: 0.2rem 0.4rem;
+}
+.add-trigger,
+.add-form button {
+  width: auto;
+}
+.add-trigger {
+  background: transparent;
+  color: #9aa2b1;
+  border: 1px dashed #2c3140;
+  width: 100%;
+}
+.add-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.add-form input {
+  flex: 1;
+}

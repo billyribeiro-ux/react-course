@@ -1,14 +1,21 @@
-// Hooks Lab — you build a Kanban board here across Parts 40 and 50,
-// exploring every React hook and the modern React 19.2 features.
+import { BoardProvider } from "./board/BoardProvider.tsx";
+import { COLUMNS } from "./board/reducer.ts";
+import { Column } from "./components/Column.tsx";
 
+// The complete Part 40 reference: reducer + context + custom hook architecture,
+// derived state, localStorage persistence, and native drag-and-drop.
 export default function App() {
   return (
-    <main className="app">
-      <h1>🗂️ Kanban Board</h1>
-      <p>
-        Your lab for mastering hooks. You&apos;ll grow this into a draggable,
-        persistent task board as you work through the Hooks Deep Dive.
-      </p>
-    </main>
+    <BoardProvider>
+      <main className="app">
+        <h1>🗂️ Kanban Board</h1>
+        <p>Drag cards between columns. Your board persists across reloads.</p>
+        <div className="board">
+          {COLUMNS.map((col) => (
+            <Column key={col.id} id={col.id} title={col.title} />
+          ))}
+        </div>
+      </main>
+    </BoardProvider>
   );
 }
