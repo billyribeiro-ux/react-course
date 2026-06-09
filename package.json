@@ -23,7 +23,8 @@
     "expo": "echo 'expo-mobile is standalone: cd projects/expo-mobile && npm install && npx expo start'",
     "install:all": "pnpm install",
     "check:browser": "node tools/verify-browser.mjs",
-    "check:launchpad": "pnpm --filter next-saas build && node tools/verify-launchpad.mjs"
+    "check:launchpad": "pnpm --filter next-saas build && node tools/verify-launchpad.mjs",
+    "check:a11y": "node tools/check-a11y.mjs"
   },
   "keywords": [
     "react",
@@ -36,6 +37,8 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "^1.60.0"
+    "@axe-core/playwright": "^4.11.3",
+    "@playwright/test": "^1.60.0",
+    "axe-core": "^4.12.0"
   }
 }

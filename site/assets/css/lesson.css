@@ -267,7 +267,7 @@ a:hover {
   letter-spacing: 0.08em;
   font-size: var(--text-xs);
   font-weight: 700;
-  color: var(--brand);
+  color: var(--brand-strong);
   margin: 0 0 var(--space-2);
 }
 .lesson-head h1 {
@@ -394,7 +394,7 @@ a:hover {
   padding: 0.05em 0.5em;
 }
 .code-pane .code-flag {
-  color: var(--accent);
+  color: var(--brand-strong);
   font-weight: 600;
 }
 .code-pane .code-actions {
@@ -596,7 +596,7 @@ a:hover {
   gap: var(--space-2);
   padding: var(--space-3) var(--space-5);
   border-radius: var(--radius);
-  background: var(--brand);
+  background: var(--brand-strong);
   color: var(--brand-contrast);
   font-weight: 700;
 }
@@ -632,7 +632,7 @@ a:hover {
 }
 .toc-card > summary .part-id {
   font-variant-numeric: tabular-nums;
-  color: var(--brand);
+  color: var(--brand-strong);
   font-size: var(--text-sm);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);

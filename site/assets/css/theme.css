@@ -58,8 +58,10 @@
   --border-strong: oklch(82% 0.015 250);
 
   --text: oklch(25% 0.02 260);
-  --text-muted: oklch(48% 0.02 260);
-  --text-faint: oklch(62% 0.02 260);
+  --text-muted: oklch(45% 0.02 260);
+  /* faint stays AA-compliant (>=4.5:1 on the near-white bg) — de-emphasis
+     comes from size/weight, not from failing contrast. */
+  --text-faint: oklch(48% 0.02 260);
 
   --brand: oklch(58% 0.18 255);
   --brand-strong: oklch(50% 0.2 255);
@@ -93,7 +95,7 @@
 
   --text: oklch(94% 0.01 260);
   --text-muted: oklch(76% 0.02 260);
-  --text-faint: oklch(60% 0.02 260);
+  --text-faint: oklch(68% 0.02 260);
 
   --brand: oklch(72% 0.15 255);
   --brand-strong: oklch(80% 0.14 255);
