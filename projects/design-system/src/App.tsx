@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Button } from "./components/Button.tsx";
+import { Badge } from "./components/Badge.tsx";
+import { Field } from "./components/Field.tsx";
 
 // A simple showcase page. The real documentation lives in Storybook
 // (run `pnpm --filter design-system storybook`), but this lets you see
@@ -32,6 +34,21 @@ export default function App() {
               <Button size="lg">Large</Button>
               <Button disabled>Disabled</Button>
             </div>
+          </section>
+
+          <section className="space-y-3">
+            <h2 className="text-xl font-semibold">Badges</h2>
+            <div className="flex flex-wrap gap-3">
+              <Badge>New</Badge>
+              <Badge tone="brand">Active</Badge>
+              <Badge tone="danger">Failed</Badge>
+            </div>
+          </section>
+
+          <section className="space-y-3 max-w-sm">
+            <h2 className="text-xl font-semibold">Fields</h2>
+            <Field label="Email" placeholder="you@example.com" hint="We'll never share it." />
+            <Field label="Name" error="Name is required" />
           </section>
         </div>
       </main>

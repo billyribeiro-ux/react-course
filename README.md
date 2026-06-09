@@ -10,7 +10,16 @@ Zustand 5, Tailwind CSS v4, Vitest 4 + Playwright, and more.
 
 **Status: complete — 208 lessons across 13 parts**, beginner to distinguished principal engineer
 (L7++), every lesson with deep explanations, copy-ready Monaco code panes, and hands-on exercises,
-backed by 7 real, runnable projects.
+backed by 7 real projects.
+
+**Verified reference implementations** (build/lint/typecheck — and where noted, tests — all green):
+`vite-fundamentals` (Recipe Finder + tests), `vite-hooks-lab` (Kanban + reducer tests),
+`data-routing-app` (Job Board), `design-system` (Button/Badge/Field + Storybook), and
+`next-saas` (**LaunchPad** full-stack SaaS, verified end-to-end in a real browser:
+auth → authorization → Server-Action CRUD → Zod validation). `js-foundations` is the vanilla→TS
+starter you build through Part 10–20; `expo-mobile` is a standalone Expo Router app. Content
+integrity is gated by `pnpm check` (manifest + render + 410 syntax-checked snippets) and
+`pnpm check:browser` / `pnpm check:launchpad`.
 
 ## What's inside
 
