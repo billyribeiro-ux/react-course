@@ -16,10 +16,16 @@ backed by 7 real projects.
 `vite-fundamentals` (Recipe Finder + tests), `vite-hooks-lab` (Kanban + reducer tests),
 `data-routing-app` (Job Board), `design-system` (Button/Badge/Field + Storybook), and
 `next-saas` (**LaunchPad** full-stack SaaS, verified end-to-end in a real browser:
-auth → authorization → Server-Action CRUD → Zod validation). `js-foundations` is the vanilla→TS
-starter you build through Part 10–20; `expo-mobile` is a standalone Expo Router app. Content
-integrity is gated by `pnpm check` (manifest + render + 410 syntax-checked snippets) and
-`pnpm check:browser` / `pnpm check:launchpad`.
+auth → authorization → Server-Action CRUD → Zod validation). `js-foundations` is a complete typed Personal Dashboard;
+`expo-mobile` is a standalone Expo Router app. **18 tests** run across the projects (incl.
+LaunchPad's DAL authorization tests — "the wrong user is denied").
+
+Everything is **enforced in CI** (`.github/workflows/ci.yml`):
+- `pnpm check` — manifest ↔ files, every lesson's `render()`, and **410 syntax-checked snippets**
+- `pnpm -r typecheck / lint / test / build` — all projects
+- `pnpm check:browser` — real Chromium: Monaco mounts + the offline fallback works + nav/copy
+- `pnpm check:a11y` — **axe-core WCAG 2.0/2.1 A & AA**, light *and* dark themes (the a11y course is itself accessible)
+- `pnpm check:launchpad` — end-to-end full-stack smoke (auth → authorization → CRUD → validation)
 
 ## What's inside
 
