@@ -22,7 +22,8 @@
     "next": "pnpm --filter next-saas dev",
     "expo": "echo 'expo-mobile is standalone: cd projects/expo-mobile && npm install && npx expo start'",
     "install:all": "pnpm install",
-    "check:browser": "node tools/verify-browser.mjs"
+    "check:browser": "node tools/verify-browser.mjs",
+    "check:launchpad": "pnpm --filter next-saas build && node tools/verify-launchpad.mjs"
   },
   "keywords": [
     "react",
